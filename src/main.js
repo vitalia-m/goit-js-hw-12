@@ -90,7 +90,6 @@ async function fetchImages(isFirstLoad = false) {
         title: 'End of results',
         position: 'topRight',
       });
-      hideLoader();
     }
   } catch (error) {
     iziToast.error({
