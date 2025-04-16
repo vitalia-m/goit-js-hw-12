@@ -47,7 +47,8 @@
   border-color: #000;
 }
 
-.button {
+.button,
+.gallery-button {
   border-radius: 8px;
   padding: 8px 16px;
   height: 40px;
@@ -61,8 +62,27 @@
   color: #fff;
   cursor: pointer;
 }
+.gallery-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+}
+.gallery-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+}
 
-.button:hover {
+.button:hover,
+.gallery-button:hover {
   background: #6c8cff;
   border: none;
 }
