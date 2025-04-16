@@ -83,6 +83,7 @@ async function fetchImages(isFirstLoad = false) {
     }
     if (userGetImages.hits.length === 15) {
       showLoadMoreButton();
+      showLoader();
     } else {
       hideLoadMoreButton();
       iziToast.show({
@@ -90,6 +91,7 @@ async function fetchImages(isFirstLoad = false) {
         title: 'End of results',
         position: 'topRight',
       });
+      hideLoader();
     }
   } catch (error) {
     iziToast.error({

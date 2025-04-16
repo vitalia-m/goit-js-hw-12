@@ -3,7 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const gallery = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
-const fetchGalleryBtn = document.querySelector('.load-more-btn');
+const fetchGalleryBtn = document.querySelector('.gallery-button');
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
