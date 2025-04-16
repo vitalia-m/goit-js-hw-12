@@ -68,7 +68,7 @@ async function fetchImages(isFirstLoad = false) {
       return;
     }
     createGallery(userGetImages.hits);
-    curentPage++;
+    currentPage++;
 
     if (!isFirstLoad) {
       const firstCard = document.querySelector('.gallery .gallery-item');
